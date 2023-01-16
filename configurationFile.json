@@ -1,0 +1,14 @@
+{
+    "environment": "staging",
+    "browser": "chrome",
+    "capabilities": {
+        "headless": false,
+        "maximizeWindow": true,
+        "windowSize": {
+            "width": 1280, 
+            "height": 720
+        }
+    },
+    "explicitTimeout": 150000,
+    "log-level": "debug"
+}

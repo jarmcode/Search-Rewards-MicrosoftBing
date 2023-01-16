@@ -1,0 +1,20 @@
+{
+  "name": "microsoftsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -p default"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "chromedriver": "^107.0.3",
+    "log4js": "^6.7.0",
+    "selenium-webdriver": "^4.6.1"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0"
+  }
+}

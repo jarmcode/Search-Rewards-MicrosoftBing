@@ -1,0 +1,10 @@
+{
+    "staging": {
+        "Url": "https://rewards.microsoft.com/",
+        "apiUrl": "",
+        "user": {
+                "username": "",
+                "password": ""
+            }   
+        }
+}

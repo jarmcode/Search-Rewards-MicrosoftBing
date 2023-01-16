@@ -1,0 +1,69 @@
+[
+  {
+    "description": "    Automatic roblox award search engine",
+    "elements": [
+      {
+        "description": "",
+        "id": "roblox-award;try-1",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Try 1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15272991099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "\"user\" logs in Chrome",
+            "match": {
+              "location": "tests\\support\\steps\\login_steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7682082200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "searches in microsoft \"30\" times",
+            "match": {
+              "location": "tests\\support\\steps\\rewards_steps.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 31177259700,
+              "error_message": "TypeError: Cannot read properties of null (reading 'click')\n    at Function.clickOn (C:\\Users\\USUARIO\\Practica\\microsoftsearch\\core\\ui\\utils\\actions.js:25:24)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async SearchsPage.doSearch (C:\\Users\\USUARIO\\Practica\\microsoftsearch\\main\\searching\\search_page.js:19:9)\n    at async World.<anonymous> (C:\\Users\\USUARIO\\Practica\\microsoftsearch\\tests\\support\\steps\\rewards_steps.js:8:5)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "roblox-award",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Roblox Award",
+    "tags": [
+      {
+        "name": "@ui",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\search.feature"
+  }
+]
